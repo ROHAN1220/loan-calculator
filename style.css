@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./YE6OJA.gif);
+    background-size: 99px;
+}
+
+.container {
+    background: darkcyan;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input {
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+}
+
+.payment {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.back-key {
+    width: 121px;
+    height: 25px;
+    border: solid white 1px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 86vh;
+    left: 44vw;
+    background-color: #67676766;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-style: normal;
+    text-align: center;
+    border-radius:28px ;
+}
+
+.back-key:active{
+
+    background-color: white;
+    color: black;
+
+}
+
+#icon{
+    position: absolute;
+    top: 9px;
+    left: 4px;
+    font-size: 25px;
+}
+
+
+h4{
+    position: absolute;
+    top: -13px;
+    right: 6px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
